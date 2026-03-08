@@ -1,0 +1,52 @@
+body {
+  background: #0b0f1a;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 15px;
+  background: #020617;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  margin-left: 150px;
+}
+
+button {
+  background: red;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.episode {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.anime-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  background: #020617;
+  border-radius: 10px;
+  padding: 15px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AnimeFlix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="menu">☰</div>
+  <div class="logo">ANIME<span>FLIX</span></div>
+</header>
+
+<!-- TRENDING SLIDER -->
+<section class="hero-slider">
+  <div class="slides" id="trendingSlider"></div>
+</section>
+
+<!-- SEARCH -->
+<div class="search-box">
+  <input type="text" id="search" placeholder="Search anime...">
+<div id="suggestions" class="suggestions"></div>
+</div>
+
+<!-- CATEGORIES -->
+<div class="categories">
+  <button onclick="filterAnime('All')">All</button>
+  <button onclick="filterAnime('Action')">Action</button>
+  <button onclick="filterAnime('Adventure')">Adventure</button>
+</div>
+
+<!-- TOP 10 / ANIME LIST -->
+<section class="section">
+  <h2>Today's Top 10</h2>
+  <div id="animeList" class="anime-row"></div>
+</section>
+
+<!-- SCRIPTS (ORDER MATTERS) -->
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
