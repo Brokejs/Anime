@@ -34,17 +34,31 @@ const animeData = [
     poster: "images/dragon.jpg",
   episodes: [
   {
-    name: "Test Stream 1",
+    name: "dragon balls 1",
     video: "https://youtube.com/embed/XpoZVGtMHcA"
   },
   {
-    name: "Tears of Steel",
+    name: "dragon balls 2",
     video: "https://youtube.com/embed/8Ry9f5x3sww"
   },
   {
-    name: "Apple Sample",
+    name: "dragon balls 3",
     video: "https://youtube.com/embed/AwhUDZT14jY"
   }
  ]
-}
+},
+  {
+    id: 4,
+    title: "Site developer",
+    category: "Adventure",
+    poster: "images/ibra.png",
+    episodes: [
+      {
+        name: "Episode 1",
+        video: "ibra.mp4"
+      }
+    ]
+  }
+
+
 ];
